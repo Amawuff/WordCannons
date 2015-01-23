@@ -293,6 +293,10 @@
          "damage":2
       },
       {
+         "letter":"D",
+         "damage":2
+      },
+      {
          "letter":"G",
          "damage":2
       },

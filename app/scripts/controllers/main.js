@@ -9,9 +9,12 @@
  */
 angular.module('wordCannonApp')
   .controller('MainCtrl', function ($scope,letterFactory) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+ 	letterFactory.getLetterRand(8)
+ 		.then(function(data)
+ 		{
+ 			//data returned from getLetterRand is letters array from letterHelper
+ 			$scope.Letter=data
+ 		})
+   
+    
   });

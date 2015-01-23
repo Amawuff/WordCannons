@@ -6,6 +6,11 @@
   </p>
   <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
+<p>I have {{Letter.length}} letters.</p>
+<div class="col-lg-2" ng-repeat ="tile in Letter track by $index">
+<h1>{{tile.letter}}<sup>{{tile.damage}}</sup></h1>
+</div>  
+
 
 <div class="row marketing">
   <h4>HTML5 Boilerplate</h4>
