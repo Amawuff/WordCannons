@@ -13,7 +13,8 @@ angular.module('wordCannonApp')
  		.then(function(data)
  		{
  			//data returned from getLetterRand is letters array from letterHelper
- 			$scope.Letter=data
+ 			console.log(data);
+ 			$scope.Letter=data;
  		})
    
     

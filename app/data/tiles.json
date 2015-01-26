@@ -2,403 +2,603 @@
    "tiles":[
       {
          "letter":"WILD",
-         "damage":3
+         "damage":3,
+         "wild":true,
+         "burning":false
       },
       {
          "letter":"WILD",
-         "damage":3
+         "damage":3,
+         "wild":true,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"A",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"E",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"I",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"O",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"O",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"O",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"O",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"O",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"O",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"O",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"O",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"N",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"N",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"N",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"N",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"N",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"N",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"R",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"R",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"R",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"R",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"R",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"R",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"T",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"T",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"T",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"T",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"T",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"T",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"L",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"L",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"L",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"L",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"S",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"S",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"S",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"S",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"U",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"U",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"U",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"U",
-         "damage":1
+         "damage":1,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"D",
-         "damage":2
+         "damage":2,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"D",
-         "damage":2
+         "damage":2,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"D",
-         "damage":2
+         "damage":2,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"D",
-         "damage":2
+         "damage":2,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"G",
-         "damage":2
+         "damage":2,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"G",
-         "damage":2
+         "damage":2,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"G",
-         "damage":2
+         "damage":2,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"B",
-         "damage":3
+         "damage":3,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"B",
-         "damage":3
+         "damage":3,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"C",
-         "damage":3
+         "damage":3,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"C",
-         "damage":3
+         "damage":3,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"M",
-         "damage":3
+         "damage":3,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"M",
-         "damage":3
+         "damage":3,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"P",
-         "damage":3
+         "damage":3,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"P",
-         "damage":3
+         "damage":3,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"F",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"F",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"H",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"H",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"V",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"V",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"W",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"W",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"Y",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"Y",
-         "damage":4
+         "damage":4,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"K",
-         "damage":5
+         "damage":5,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"J",
-         "damage":8
+         "damage":8,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"X",
-         "damage":8
+         "damage":8,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"Q",
-         "damage":10
+         "damage":10,
+         "wild":false,
+         "burning":false
       },
       {
          "letter":"Z",
-         "damage":10
+         "damage":10,
+         "wild":false,
+         "burning":false
       }
    ]
 }
