@@ -1,0 +1,15 @@
+<div>
+	<label>Name: 
+		<input type="text" ng-model="tempName" />
+	</label>
+	<label>Health:
+		<input type="text" ng-model="tempHealth" />
+	</label>
+	<a class ="btn btn-success" ng-click="setPlayer()">Generate Player</a>
+	<p>{{player.name}}</p>
+	<p>{{player.health}}</p>
+	<p>I have {{player.tiles.length}} letters.</p>
+	<div class="pull-left letter-tile " ng-class="{'wild':player.tile.wild}"ng-repeat ="tile in player.tiles">
+	<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
+	</div>
+</div>
