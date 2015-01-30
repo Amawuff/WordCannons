@@ -9,7 +9,11 @@
 	<p>{{player.name}}</p>
 	<p>{{player.health}}</p>
 	<p>I have {{player.tiles.length}} letters.</p>
-	<div class="pull-left letter-tile " ng-class="{'wild':player.tile.wild}"ng-repeat ="tile in player.tiles">
-	<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
-	</div>
+	<div class="letterContainer">
+		<span class="pull-left letter-tile " ng-class="{'wild':player.tile.wild}"ng-repeat ="tile in player.tiles track by $index" ng-drag="true" ng-drag-data="obj" ng-drag-success="onDragSuccess($data,$event)" ng-center-anchor="true">
+			<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
+		</span>
+	</div>	
+	<div class="dropArea" ng-drop="true" ng-drop-success="onDropSuccess($data,$event)"></div>
+
 </div>
