@@ -29,7 +29,7 @@ angular.module('wordCannonApp')
 		};
 		//loop through and get n letters.
 		for (var i = 0; i < n; i++) {
-			letters[i] = lettersData[Math.floor(Math.random()*101)];
+			letters[i] = lettersData[Math.floor(Math.random()*99)];
 		};
 		return letters;
 		
