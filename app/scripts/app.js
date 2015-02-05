@@ -28,8 +28,8 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/newplayer', {
-        templateUrl: 'views/newplayer.html',
+      .when('/game', {
+        templateUrl: 'views/game.html',
         controller: 'NewPlayerCrtl'
       })
       .otherwise({
