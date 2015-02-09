@@ -19,6 +19,9 @@ angular.module('wordCannonApp')
                             );
                 
                 return player;
+            },
+            getPlayer: function(){
+                return player;
             }
         }
 });

@@ -8,7 +8,7 @@
  * Controller of the wordCannonApp
  */
 angular.module('wordCannonApp')
-  .controller('GameCtrl', function ($scope) {
-  	
+  .controller('GameCtrl', function ($scope,playerFactory) {
+  	$scope.player = playerFactory.getPlayer();
     
   });
