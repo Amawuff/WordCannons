@@ -8,18 +8,15 @@
  * Controller of the wordCannonApp
  */
 angular.module('wordCannonApp')
-  .controller('MainCtrl', function ($scope,letterFactory, playerFactory) {
+  .controller('MainCtrl', function ($scope,playerFactory) {
+  		$scope.player ='';
 
-  	var tempName = '';
-  	$scope.player = [];
-  	$scope.tempPlayerName = ''
+	 $scope.newPlayer = function(tempname){
+	 	$scope.player = playerFactory.createPlayer(tempname);
+	 	console.log($scope.player);
+	 }
 
- 	letterFactory.getLetterRand(8)
- 		.then(function(data)
- 		{
- 			//data returned from getLetterRand is letters array from letterHelper
- 			console.log(data);
- 			$scope.Letter=data;
- 	});
+
+ 	
    	
   });

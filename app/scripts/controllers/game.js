@@ -9,5 +9,6 @@
  */
 angular.module('wordCannonApp')
   .controller('GameCtrl', function ($scope) {
+  	
     
   });
