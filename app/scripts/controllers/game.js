@@ -10,5 +10,6 @@
 angular.module('wordCannonApp')
   .controller('GameCtrl', function ($scope,playerFactory) {
   	$scope.player = playerFactory.getPlayer();
+
     
   });
