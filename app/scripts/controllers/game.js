@@ -4,10 +4,10 @@
  * @ngdoc function
  * @name wordCannonApp.controller:AboutCtrl
  * @description
- * # AboutCtrl
+ * # GameCtrl
  * Controller of the wordCannonApp
  */
 angular.module('wordCannonApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('GameCtrl', function ($scope) {
     
   });
