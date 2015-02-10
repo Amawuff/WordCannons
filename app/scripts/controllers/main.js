@@ -13,7 +13,7 @@ angular.module('wordCannonApp')
 
 	 $scope.newPlayer = function(tempname){
 	 	$scope.player = playerFactory.createPlayer(tempname);
-	 	console.log($scope.player);
+	 	
 	 }
 
 

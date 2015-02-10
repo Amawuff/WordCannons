@@ -2,8 +2,8 @@
 	
 	border-radius: 10px;
 	background: linear-gradient(to bottom, #fff132 0%,#f99b02 100%);
-	width:75px;
-	height:75px;
+	width:73px;
+	height:73px;
 	margin: 5px;
 	box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75);
 	cursor: pointer;
@@ -46,8 +46,9 @@
 
 }
 
-.letterContainer{
-	width: 100%;
+.tile-container{
+	width: 95%;
 	height: auto;
 	display: block;
+	margin-left:15px;
 }

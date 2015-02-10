@@ -1,0 +1,54 @@
+.prettybox{
+	background-image: url("/images/stripes.png");
+    border-radius: 20px;  
+    box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75); 
+    z-index: -2;
+
+}
+.playerdata{
+	height:140px;
+	color: #fff;
+
+	h1{
+		font-weight:bolder;
+	  }
+}
+
+.player{
+	background-color: #1E90FF;
+}
+
+.opponent{
+	background-color: #990000;
+}
+
+.dragdrop{
+	margin-top:25px;
+	margin-bottom:25px;
+	height:84px;
+}
+
+.discard{
+	background-color:#000;
+	margin-bottom:50px;
+}
+
+.word{
+	margin-top: 50px;
+	background-color:#7CFC00;
+
+}
+.bgtext{
+   position: absolute;
+   top: 16%;
+   left:0;
+   right:0;
+   bottom:0;
+   z-index: -1;
+   font-size:42px;
+   text-align:center;
+   font-weight:900;
+   opacity: 0.5;
+
+}
+

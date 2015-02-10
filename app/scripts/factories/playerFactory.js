@@ -25,7 +25,7 @@ angular.module('wordCannonApp')
             },
             setPlayer: function(viewplayer){
                 player = viewplayer;
-                console.log("player set: "+ viewplayer.name)
+                
             }
         }
 });
