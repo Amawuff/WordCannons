@@ -8,15 +8,9 @@ angular.module('wordCannonApp')
 	 return {
             createPlayer: function(name) {
             	//set the name of player and health to 50
-                player = {'name': name, 'health': 50, 'tiles': [] };
-                    //get starting letters
-                    letterFactory.getLetterRand(8)
-                        .then( 
-                            function (data,error){
-                                //once the data has loaded set player.tiles
-                                player.tiles = data;
-                                }
-                            );
+                player = {'name': name, 'health': 50};
+                 
+                    
                 
                 return player;
             },

@@ -17,25 +17,35 @@
 		</div>
 	</div>
 		<div class ="row">
-		<div class="prettybox dragdrop word col-xs-12">
+		<div class="prettybox dragdrop word col-xs-12" ng-model="word" data-drop="true" jqyoui-droppable="{multiple:true}">
 			<span class="bgtext">WORD</span>
-			<div class= "tile-container">
+			<div class= "tile-container" >
+				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}" ng-repeat ="tile in word track by $index"  
+				 ng-model = "word" data-drag="true" data-jqyoui-options="{revert: 'invalid'}"  jqyoui-draggable="{index: {{$index}},animate:true}">
+					<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
+				</div>
 			</div>	
 		</div>	
 	</div>
 	<div class ="row">
-		<div class="prettybox dragdrop col-xs-12">
-			<div class= "tile-container">
-				<span class="pull-left letter-tile " ng-class="{'wild':tile.wild}"ng-repeat ="tile in player.tiles track by $index">
+		<div class="prettybox dragdrop col-xs-12" ng-model="letterpool" data-drop="true" jqyoui-droppable="{multiple:true}">
+			<div class= "tile-container" >
+				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}" ng-repeat ="tile in letterpool track by $index"  
+				 ng-model = "letterpool" data-drag="true" data-jqyoui-options="{revert: 'invalid'}"  jqyoui-draggable="{index: {{$index}},animate:true}">
 					<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
-				</span>
+				</div>
 			</div>
 		</div>	
 	</div>
 	<div class ="row">
-		<div class="prettybox dragdrop discard col-xs-12">
+		<div class="prettybox dragdrop discard col-xs-12" ng-model="discard" data-drop="true" jqyoui-droppable="{multiple:true}">
 			<span class="bgtext">DISCARD</span>
 			<div class= "tile-container">
+				<div class= "tile-container">
+				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}" ng-repeat ="tile in discard track by $index"  
+				 ng-model = "discard" data-drag="true" data-jqyoui-options="{revert: 'invalid'}"  jqyoui-draggable="{index: {{$index}},animate:true}">
+					<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
+				</div>
 			</div>	
 		</div>	
 	</div>
@@ -43,6 +53,9 @@
 	<div class ="row">
 	<div class="col-xs-12">	
 	<a class="col-xs-4 col-xs-offset-4 btn btn-primary btn-lg" role="button" ng-click="" >FIRE!</a>
+	<p>{{letterpool}}</p>
+	<p>{{discard}}</p>
+	<p>{{word}}</p>
 	</div>
 
 </div>
