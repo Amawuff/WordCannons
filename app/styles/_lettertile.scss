@@ -6,13 +6,23 @@
 	height:73px;
 	margin: 5px;
 	box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75);
-	cursor: pointer;
+	//cursor: pointer;
+	.burn{
+		height:73px;
+		width:73px;
+		position:absolute;
+		top:5px;
+		margin-left: -17px;   
+		background-image:url("/images/flames.gif");
+		z-index:1;
+	}
 	h1{
 		font-size: 53px;
 		margin-top:10px;
 		margin-left:auto;
 		margin-right:auto;
 		width:60%;
+		z-index:2;
 		text-align:center;
 		
 
@@ -48,7 +58,7 @@
 
 .tile-container{
 	width: 95%;
-	height: auto;
+	height: 100%;
 	display: block;
 	margin-left:15px;
 }

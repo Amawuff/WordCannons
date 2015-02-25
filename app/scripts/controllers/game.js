@@ -13,6 +13,10 @@ angular.module('wordCannonApp')
   	$scope.word =[];
   	$scope.letterpool =[];                     
   	$scope.discard =[];
+
+       $scope.handleDrop = function(item, bin) {
+    alert('Item ' + item + ' has been dropped into ' + bin);
+  }
   	
   	//get initial tiles
     letterFactory.getLetterRand(8)

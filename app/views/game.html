@@ -16,35 +16,38 @@
 			<h2>HP: {{player.health}}</h2>
 		</div>
 	</div>
+
+	<div class="item" id="item1" draggable></div>
+	<div class="bin" droppable drop="handleDrop()"></div>
 		<div class ="row">
-		<div class="prettybox dragdrop word col-xs-12" ng-model="word" data-drop="true" jqyoui-droppable="{multiple:true}">
-			<span class="bgtext">WORD</span>
-			<div class= "tile-container" >
-				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}" ng-repeat ="tile in word track by $index"  
-				 ng-model = "word" data-drag="true" data-jqyoui-options="{revert: 'invalid'}"  jqyoui-draggable="{index: {{$index}},animate:true}">
+		<div class="prettybox dragdrop word col-xs-12">
+			<!--<span class="bgtext">WORD</span>-->
+			<div class= "tile-container"  id="word" droppable drop="handleDrop">
+				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}"  id="tile-{{$index}}" ng-repeat ="tile in word track by $index" draggable>  
 					<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
+					
 				</div>
 			</div>	
 		</div>	
 	</div>
 	<div class ="row">
-		<div class="prettybox dragdrop col-xs-12" ng-model="letterpool" data-drop="true" jqyoui-droppable="{multiple:true}">
-			<div class= "tile-container" >
-				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}" ng-repeat ="tile in letterpool track by $index"  
-				 ng-model = "letterpool" data-drag="true" data-jqyoui-options="{revert: 'invalid'}"  jqyoui-draggable="{index: {{$index}},animate:true}">
+		<div class="prettybox dragdrop col-xs-12">
+			<div class= "tile-container"  id="letterpool" droppable drop="handleDrop">
+				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}"  id="tile-{{$index}}" ng-repeat ="tile in letterpool track by $index" draggable>
 					<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
+					
 				</div>
 			</div>
 		</div>	
 	</div>
 	<div class ="row">
-		<div class="prettybox dragdrop discard col-xs-12" ng-model="discard" data-drop="true" jqyoui-droppable="{multiple:true}">
-			<span class="bgtext">DISCARD</span>
-			<div class= "tile-container">
-				<div class= "tile-container">
-				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}" ng-repeat ="tile in discard track by $index"  
-				 ng-model = "discard" data-drag="true" data-jqyoui-options="{revert: 'invalid'}"  jqyoui-draggable="{index: {{$index}},animate:true}">
+		<div class="prettybox dragdrop discard col-xs-12">
+			<!--<span class="bgtext">DISCARD</span>-->
+			<div class= "tile-container"  id="discard" droppable drop="handleDrop">
+				
+				<div class="pull-left letter-tile " ng-class="{'wild':tile.wild}"  id="tile-{{$index}}" ng-repeat ="tile in discard track by $index" draggable>
 					<h1>{{tile.letter}}</h1><sup>{{tile.damage}}</sup>
+					
 				</div>
 			</div>	
 		</div>	
